@@ -1,0 +1,9 @@
+#PennFudanPed YOLO实例分割配置文件
+path: E:\messy_files\UD_lab_test\lasttry2\data\PennFudanPed_YOLO  #数据集根目录的绝对路径
+train: images/train  #训练集图片相对路径
+val: images/val      #验证集图片相对路径
+
+# 类别配置
+nc: 1                #类别数量
+names:
+  0: person          #行人类别
